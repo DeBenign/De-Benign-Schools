@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Gallery — De-Benign Schools</title>
+<meta name="description" content="Photo gallery from De-Benign Schools — classrooms, sports, events, and Nursery life in Omi-Adio, Ibadan."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body data-page="gallery">
+
+<div id="topbar-placeholder"></div>
+<div id="navbar-placeholder"></div>
+
+<section class="page-hero page-hero-gallery">
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Gallery</div>
+    <div class="page-hero-badge">Life at De-Benign</div>
+    <h1>Our School in Pictures</h1>
+    <p>A glimpse into classrooms, sports, events, and everyday moments at De-Benign Schools.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="gallery-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="1">Classroom</button>
+      <button class="filter-btn" data-filter="2">Sports</button>
+      <button class="filter-btn" data-filter="3">Events</button>
+      <button class="filter-btn" data-filter="4">Nursery</button>
+    </div>
+
+   <div class="gallery-grid" id="galleryGrid">
+    <div class="gallery-item gallery-cat-1 reveal" data-cat="1" data-title="Mathematics Class" data-desc="JSS pupils engaged in a lively Mathematics lesson.">
+      <img src="images/15.jpg" alt="Mathematics Class" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Mathematics Class</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-2 reveal" data-cat="2" data-title="Inter-House Sports" data-desc="Pupils competing in our annual inter-house sports day.">
+      <img src="images/16.jpg" alt="Inter-House Sports" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Inter-House Sports</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-3 reveal" data-cat="3" data-title="Cultural Day" data-desc="Celebrating Nigerian culture and heritage as one school family.">
+      <img src="images/35.jpg" alt="Cultural Day" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Cultural Day</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-4 reveal" data-cat="4" data-title="Montessori Playtime" data-desc="Nursery pupils exploring hands-on Montessori learning materials.">
+      <img src="images/18.jpg" alt="Montessori Playtime" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Montessori Playtime</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-1 reveal" data-cat="1" data-title="English Language" data-desc="Primary pupils practicing reading and comprehension.">
+      <img src="images/7.jpg" alt="English Language" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>English Language</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-2 reveal" data-cat="2" data-title="Football Practice" data-desc="After-school football practice on our sports field.">
+      <img src="images/24.jpg" alt="Football Practice" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Football Practice</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-3 reveal" data-cat="3" data-title="Prize-Giving Day" data-desc="Celebrating academic excellence at our end-of-session ceremony.">
+      <img src="images/37.jpg" alt="Prize-Giving Day" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Prize-Giving Day</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-4 reveal" data-cat="4" data-title="Story Time" data-desc="Nursery pupils gathered for our daily story-time session.">
+      <img src="images/20.jpg" alt="Story Time" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>Story Time</span></div>
+    </div>
+    <div class="gallery-item gallery-cat-1 reveal" data-cat="1" data-title="Science Lab" data-desc="Hands-on basic science demonstration for Primary pupils.">
+      <img src="images/21.jpg" alt="Science Lab" class="gallery-item-photo"/>
+      <div class="gallery-overlay"><span>ICT Lab</span></div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<div id="contact-strip-placeholder"></div>
+<div id="footer-placeholder"></div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <div class="lightbox-content">
+    <div class="lightbox-media" id="lightboxMedia"></div>
+    <div class="lightbox-body">
+      <h4 id="lightboxTitle"></h4>
+      <p id="lightboxDesc"></p>
+    </div>
+  </div>
+</div>
+
+<script src="shared.js"></script>
+<script>
+const galleryItems = document.querySelectorAll('.gallery-item');
+const filterBtns = document.querySelectorAll('.filter-btn');
+
+// Filter tabs
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    galleryItems.forEach(item => {
+      item.classList.toggle('hidden', filter !== 'all' && item.dataset.cat !== filter);
+    });
+  });
+});
+
+// Lightbox
+const lightbox = document.getElementById('lightbox');
+const lightboxMedia = document.getElementById('lightboxMedia');
+const lightboxTitle = document.getElementById('lightboxTitle');
+const lightboxDesc = document.getElementById('lightboxDesc');
+
+galleryItems.forEach(item => {
+  item.addEventListener('click', () => {
+    const imgSrc = item.querySelector('.gallery-item-photo').src;
+    lightboxMedia.innerHTML = `<img src="${imgSrc}" alt="${item.dataset.title}" style="width:100%;height:100%;object-fit:cover;"/>`;
+    lightboxMedia.className = 'lightbox-media';
+    lightboxTitle.textContent = item.dataset.title;
+    lightboxDesc.textContent = item.dataset.desc;
+    lightbox.classList.add('open');
+  });
+});
+
+document.getElementById('lightboxClose').addEventListener('click', () => lightbox.classList.remove('open'));
+lightbox.addEventListener('click', (e) => { if (e.target === lightbox) lightbox.classList.remove('open'); });
+</script>
+</body>
+</html>
