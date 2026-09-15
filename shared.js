@@ -140,8 +140,7 @@
         <ul>
           <li><a href="nursery.html">Nursery &amp; Montessori</a></li>
           <li><a href="primary.html">Primary School</a></li>
-          <li><a href="jss.html">JSS 1 &amp; JSS 2</a></li>
-          <li><a href="jss.html">JSS 3 (Coming Soon)</a></li>
+          <li><a href="jss.html">JSS 1 – JSS 3</a></li>
           <li><a href="admissions.html">Extracurriculars</a></li>
         </ul>
       </div>
