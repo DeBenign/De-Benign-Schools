@@ -25,7 +25,7 @@
         <a href="#" class="fa fa-instagram" title="Instagram"></a>
 
         <!-- Add WhatsApp icon -->
-        <a href="#" class="fa fa-whatsapp" title="WhatsApp"></a>
+        <a href="https://wa.app" class="fa fa-whatsapp" title="WhatsApp"></a>
       </div>
     </div>
   </div>`;
@@ -119,7 +119,7 @@
         <a href="#" class="fa fa-instagram" title="Instagram"></a>
 
         <!-- Add WhatsApp icon -->
-        <a href="#" class="fa fa-whatsapp" title="WhatsApp"></a>
+        <a href="" class="fa fa-whatsapp" title="WhatsApp"></a>
         </div>
       </div>
 
