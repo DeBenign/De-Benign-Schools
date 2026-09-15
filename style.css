@@ -80,7 +80,7 @@ ul { list-style: none; }
 .page-hero { position: relative; padding: 120px 24px 70px; background: linear-gradient(135deg, #001a40 0%, var(--navy) 45%, #1a5276 100%); overflow: hidden; }
 .page-hero::before { content: ''; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Ccircle cx='170' cy='30' r='90' fill='none' stroke='%23C7A83A' stroke-width='1' opacity='.12'/%3E%3C/svg%3E") no-repeat; background-size: 500px; background-position: top right; }
 .page-hero-about { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/3.jpg'); height: 600px; background-size: cover; background-position: center; }
-.page-hero-nursery { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/23.JPG'); height: 600px; background-size: cover; background-position: top right; }
+.page-hero-nursery { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/23.jpg'); height: 600px; background-size: cover; background-position: top right; }
 .page-hero-primary { background-image: linear-gradient(135deg,rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/4.jpg'); height: 600px; background-size: cover; background-position: center; }
 .page-hero-secondary { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/9.jpg'); height: 600px; background-size: cover; background-position: center; }
 .page-hero-news { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/29.jpg'); height: 600px; background-size: cover; background-position: center; }
@@ -101,7 +101,7 @@ ul { list-style: none; }
 /* Each slide layers a brand-colored gradient over a photo. If a photo file
    is missing, the browser simply shows the gradient alone — nothing breaks. */
 .slide-1 { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/12.jpg'); background-blend-mode: normal; }
-.slide-2 { background-image: linear-gradient(135deg, rgba(200, 0, 24, 0.82) 0%, rgba(26,92,26,.68) 40%, rgba(13,59,13,.55) 100%), url('images/1.JPG'); background-blend-mode: normal; }
+.slide-2 { background-image: linear-gradient(135deg, rgba(200, 0, 24, 0.82) 0%, rgba(26,92,26,.68) 40%, rgba(13,59,13,.55) 100%), url('images/1.jpg'); background-blend-mode: normal; }
 .slide-3 { background-image: linear-gradient(135deg, rgba(150,27,0,.82) 0%, rgba(92, 0, 0, 0.68) 40%, rgba(122,79,0,.55) 100%), url('images/4.jpg'); background-blend-mode: normal; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to right, rgba(221, 2, 2, 0.466) 0%, rgba(0,19,51,.42) 60%, transparent 100%); }
 .hero-content { position: relative; z-index: 2; max-width: 1240px; margin: 0 auto; padding: 0 24px; width: 100%; }
