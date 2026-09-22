@@ -19,13 +19,13 @@
       </div>
       <div class="topbar-right">
         <!-- Add Facebook icon -->
-        <a href="#" class="fa fa-facebook" title="Facebook"></a>
+        <a href="https://facebook.com/" class="fa fa-facebook" title="Facebook"></a>
         
         <!-- Add Instagram icon -->
-        <a href="#" class="fa fa-instagram" title="Instagram"></a>
+        <a href="https://instagram.com/" class="fa fa-instagram" title="Instagram"></a>
 
         <!-- Add WhatsApp icon -->
-        <a href="https://wa.app" class="fa fa-whatsapp" title="WhatsApp"></a>
+        <a href="https://whatsapp.com/" class="fa fa-whatsapp" title="WhatsApp"></a>
       </div>
     </div>
   </div>`;
@@ -113,13 +113,13 @@
         <p>A private nursery, primary, and junior secondary school committed to academic excellence, character development, and affordable quality education in Omi-Adio, Ibadan.</p>
         <div class="footer-socials">
            <!-- Add Facebook icon -->
-        <a href="#" class="fa fa-facebook" title="Facebook"></a>
+        <a href="https://facebook.com/" class="fa fa-facebook" title="Facebook"></a>
         
         <!-- Add Instagram icon -->
-        <a href="#" class="fa fa-instagram" title="Instagram"></a>
+        <a href="https://instagram.com/" class="fa fa-instagram" title="Instagram"></a>
 
         <!-- Add WhatsApp icon -->
-        <a href="" class="fa fa-whatsapp" title="WhatsApp"></a>
+        <a href="https://whatsapp.com/" class="fa fa-whatsapp" title="WhatsApp"></a>
         </div>
       </div>
 
