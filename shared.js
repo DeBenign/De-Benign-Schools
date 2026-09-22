@@ -22,10 +22,10 @@
         <a href="https://facebook.com/" class="fa fa-facebook" title="Facebook"></a>
         
         <!-- Add Instagram icon -->
-        <a href="https://instagram.com/" class="fa fa-instagram" title="Instagram"></a>
+        <a href="https://instagram.com/de_debenignschools?utm_source=qr" class="fa fa-instagram" title="Instagram"></a>
 
         <!-- Add WhatsApp icon -->
-        <a href="https://whatsapp.com/" class="fa fa-whatsapp" title="WhatsApp"></a>
+        <a href="https://wa.me/qr/KNIIF7FB7FM4D1" class="fa fa-whatsapp" title="WhatsApp"></a>
       </div>
     </div>
   </div>`;
@@ -116,10 +116,10 @@
         <a href="https://facebook.com/" class="fa fa-facebook" title="Facebook"></a>
         
         <!-- Add Instagram icon -->
-        <a href="https://instagram.com/" class="fa fa-instagram" title="Instagram"></a>
+        <a href="https://instagram.com/de_debenignschools?utm_source=qr" class="fa fa-instagram" title="Instagram"></a>
 
         <!-- Add WhatsApp icon -->
-        <a href="https://whatsapp.com/" class="fa fa-whatsapp" title="WhatsApp"></a>
+        <a href="https://wa.me/qr/KNIIF7FB7FM4D1" class="fa fa-whatsapp" title="WhatsApp"></a>
         </div>
       </div>
 
