@@ -19,7 +19,7 @@
       </div>
       <div class="topbar-right">
         <!-- Add Facebook icon -->
-        <a href="https://facebook.com/" class="fa fa-facebook" title="Facebook"></a>
+        <a href="https://facebook.com/share/19WPigFNZw/?mibexid=wwXIfr" class="fa fa-facebook" title="Facebook"></a>
         
         <!-- Add Instagram icon -->
         <a href="https://instagram.com/de_debenignschools?utm_source=qr" class="fa fa-instagram" title="Instagram"></a>
@@ -113,7 +113,7 @@
         <p>A private nursery, primary, and junior secondary school committed to academic excellence, character development, and affordable quality education in Omi-Adio, Ibadan.</p>
         <div class="footer-socials">
            <!-- Add Facebook icon -->
-        <a href="https://facebook.com/" class="fa fa-facebook" title="Facebook"></a>
+        <a href="https://facebook.com/share/19WPigFNZw/?mibexid=wwXIfr" class="fa fa-facebook" title="Facebook"></a>
         
         <!-- Add Instagram icon -->
         <a href="https://instagram.com/de_debenignschools?utm_source=qr" class="fa fa-instagram" title="Instagram"></a>
