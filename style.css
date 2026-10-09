@@ -85,7 +85,7 @@ ul { list-style: none; }
 .page-hero-secondary { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/9.jpg'); height: 600px; background-size: cover; background-position: center; }
 .page-hero-news { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/29.jpg'); height: 600px; background-size: cover; background-position: center; }
 .page-hero-contact { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/12.jpg'); height: 600px; background-size: cover; background-position: center; }
-.page-hero-admissions { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/.jpg'); height: 600px; background-size: cover; background-position: top right; }
+.page-hero-admissions { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/6.jpg'); height: 600px; background-size: cover; background-position: top right; }
 .page-hero-inner { position: relative; z-index: 1; max-width: 1240px; margin: 0 auto; }
 .breadcrumb { font-size: var(--fs-xs); color: rgba(255,255,255,.6); margin-bottom: 16px; letter-spacing: .04em; }
 .breadcrumb a { color: var(--gold); }
@@ -100,9 +100,9 @@ ul { list-style: none; }
 .hero-slide.active { opacity: 1; }
 /* Each slide layers a brand-colored gradient over a photo. If a photo file
    is missing, the browser simply shows the gradient alone — nothing breaks. */
-.slide-1 { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/12.jpg'); background-blend-mode: normal; }
-.slide-2 { background-image: linear-gradient(135deg, rgba(200, 0, 24, 0.82) 0%, rgba(26,92,26,.68) 40%, rgba(13,59,13,.55) 100%), url('images/15.jpg'); background-blend-mode: normal; }
-.slide-3 { background-image: linear-gradient(135deg, rgba(150,27,0,.82) 0%, rgba(92, 0, 0, 0.68) 40%, rgba(122,79,0,.55) 100%), url('images/4.jpg'); background-blend-mode: normal; }
+.slide-1 { background-image: linear-gradient(135deg, rgba(245, 4, 16, 0.82) 0%, rgba(0,51,102,.68) 40%, rgba(26,82,118,.55) 100%), url('images/3.jpg'); background-blend-mode: normal; }
+.slide-2 { background-image: linear-gradient(135deg, rgba(200, 0, 24, 0.82) 0%, rgba(26,92,26,.68) 40%, rgba(13,59,13,.55) 100%), url('images/4.jpg'); background-blend-mode: normal; }
+.slide-3 { background-image: linear-gradient(135deg, rgba(150,27,0,.82) 0%, rgba(92, 0, 0, 0.68) 40%, rgba(122,79,0,.55) 100%), url('images/5.jpg'); background-blend-mode: normal; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to right, rgba(221, 2, 2, 0.466) 0%, rgba(0,19,51,.42) 60%, transparent 100%); }
 .hero-content { position: relative; z-index: 2; max-width: 1240px; margin: 0 auto; padding: 0 24px; width: 100%; }
 .hero-label { display: inline-block; margin-bottom: 18px; font-size: var(--fs-xs); font-weight: 600; letter-spacing: .14em; color: var(--gold); text-transform: uppercase; border-left: 3px solid var(--gold); padding-left: 12px; }
